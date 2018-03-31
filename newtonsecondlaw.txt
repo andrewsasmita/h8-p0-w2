@@ -1,0 +1,20 @@
+// Algorithm
+// ---
+
+1. Buat variable untuk menampung resultan gaya.
+2. Buat variable untuk menampung massa benda dengan nilai 600.
+3. Buat variable untuk menampung percepatan benda dengan nilai 2.
+4. Menghitung nilai resultan gaya dengan cara mengalikan massa benda dan percepatan benda.
+5. Menampilkan hasil dari perhitungan yang telah dibuat.
+
+// Pseudocode
+// ---
+
+STORE "force"
+STORE "mass" with value of 600
+STORE "acceleration" with value of 2
+
+COMPUTE "mass" multiplied by "acceleration"
+SET "force" as result of multiplication
+
+PRINT "force"
