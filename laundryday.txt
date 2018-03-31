@@ -1,0 +1,20 @@
+// Algorithm
+// ---
+
+1. Buat variable counter untuk menghitung pakaian dengan nilai awal 0
+2. Ketika jumlah pakaian lebih kecil dari 20 jalakan step 2a, namun ketika jumlah pakaian telah mencapai 20 jalankan step 3
+2a. Tambahkan satu kedalam counter pakaian, kemudian kembali kepada step 2.
+3. Tampilkan "Semua pakaian telah masuk, nyalakan mesin"
+
+// Pseudocode
+// ---
+
+STORE "pakaian" with value of 0
+
+WHILE "pakaian"  < 20 
+    
+    ADD "pakaian" counter by 1
+
+ENDWHILE
+
+PRINT "Semua pakaian telah masuk, nyalakan mesin"

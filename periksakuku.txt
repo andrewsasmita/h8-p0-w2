@@ -1,0 +1,35 @@
+// Algorithm
+// ---
+
+1. Buat variable counter untuk jumlah siswa dengan nilai awal 0
+2. Buat variable kuku 
+3. Buat variable siswa dihukum dengan nilai awal 0
+4. Buat variable siswa teladan dengan nilai awal 0 
+5. Ketika jumlah siswa lebih kecil dari 40 jalankan step 5a, namun ketika jumlah siswa telah mencapai 40 jalankan step 6.
+5a. Tambahkan satu kedalam jumlah siswa, apabila siswa memiliki kuku yang panjang maka tambahkan satu kedalam counter hukuman, 
+    apabila tidak tambahkan satu ke dalam counter teladan. Kembali ke step 5.
+6. Tampilkan jumlah siswa yang dihukum dan siswa teladan.
+
+// Pseudocode
+// ---
+
+STORE "siswa" with value of 0
+STORE "kuku"
+STORE "hukum" with value of 0
+STORE "teladan" with value of 0
+
+
+
+WHILE "siswa" < 40
+    
+    ADD "siswa" by 1
+    IF "kuku" = panjang
+        ADD 1 to "hukum" counter
+    ELSE 
+        ADD 1 to "teladan" counter
+    ENDIF
+
+ENDWHILE
+
+PRINT "Jumlah siswa yang dihukum adalah ["hukum"]"
+PRINT "Jumlah siswa teladan adalah ["teladan"]"

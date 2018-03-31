@@ -1,0 +1,52 @@
+// Algorithm
+// ---
+
+1. Buat variable untuk menampung tahun dengan nilai 2004 (for example)
+2. Buat variable untuk menampung hasil pembagian tahun
+
+3. Apabila tahun dibagi dengan 4 ada sisa jalankan step 3a, namun apabila habis terbagi, jalankan step 4.
+3a. Tampilkan "Tahun biasa"
+
+4. Apabila tahun dibagi dengan 100 habis terbagi jalankan step 4a, namun apabila ada sisa, jalankan step 5.
+4a. Tampilkan "Tahun biasa"
+
+5. Apabila tahun dibagi dengan 400 ada sisa jalankan step 5a, namun apabila habis terbagi, jalankan step 6.
+5a. Tampilkan "Tahun biasa"
+
+6. Tampilkan "Tahun kabisat"
+
+// Pseudocode
+// ---
+
+STORE "year" with value of 2004 
+STORE "leap1"
+STORE "leap2"
+STORE "leap3"
+
+CALCULATE "year" divided by 4
+SET "leap1" as result of division by 4
+CALCULATE "year" divided by 100
+SET "leap2" as result of division by 100
+CALCULATE "year" divided by 400 
+SET "leap3" as result of division by 400
+
+IF "leap1" have decimal value
+
+    PRINT "Tahun biasa"
+
+ELSE 
+
+    IF "leap2" do not have decimal value
+
+        PRINT "Tahun biasa"
+
+    ELSE
+
+        IF "leap3" have decimal value
+
+            PRINT "Tahun biasa"
+
+        ELSE
+
+            PRINT "Tahun kabisat"
+ENDIF
